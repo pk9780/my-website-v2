@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Merriweather:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle nav-open" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro" id="name">
+          <strong>Prabhakaran Kannan</strong>
+        </h1>
+       <!--  <p class="section__subtitle section__subtitle--intro">
+          Materials Engineer and Front End Developer
+        </p>
+        -->
+        <div class="logo">
+         <!--  <img
+            src="img/top-image.jpg"
+            alt="picture of a maze"
+            class="intro__img"
+          />-->
+        </div>
+    </section>
+     
+
+    <!-- My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--intro"></h2>
+      <div class="services">
+        <div class="service-1">
+          <h3>Polymer and Composites</h3>
+          <ul>
+            <li>Nanocomposites - Nanoclay, CNT</li>
+            <li>Silicones, Engineering polymers</li>
+            <li>Extrusion and Injection Moulding</li>
+            <li>Electrospinning</li>
+          </ul>  
+        </div>
+        <div class="service-2">
+          <h3>Cable Insulation</h3>
+          <ul>
+            <li>Low smoke zero halogen</li>
+            <li>Crosslinked polymers, Silicones</li>
+            <li>Fire Testing</li>
+            <li>Construction products regulation</li>
+          </ul>
+        </div>
+        <div class="service-3">
+          <h3>Optical fibre coatings</h3>
+            <ul>
+              <li>UV curing acrylates</li>
+              <li>Application specific coatings</li>
+              <li>Characterization and optimization</li>
+            </ul>
+        </div>
+      </div>
+      <a href="#work" class="btn">Projects</a>
+    </section>
+
+    <!--  About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title==about">About Me</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Polymer and Composites Engineer
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Engineering and polymers has been my passion for the last 10 years. I have gained experience in material selection, sourcing, process and product improvement for different applications by providing viable solutions.
+        </p>
+      </div>
+      <img src="img/sunrise.jpg" alt="Lost in the maze" class="about-me__img" />
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">Work Experience</h2>
+      <p class="section__subtitle" class="section__subtitle--work">
+      </p>
+
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img
+            id = "image1"
+            src="img/polymer-pyramid.jpg"
+            alt=""
+            class="portfolio_img"
+          />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img id = "image2" src="img/second-img.jpg" alt="" class="portfolio_img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img id = "image3" src="img/third-img.jpg" alt="" class="portfolio_img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer">
+      
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="footer footer__link" href="prabhakaran.k@gmail.com"><i class="far fa-envelope"></i></a>
+        </li>
+        <li class="social-list__item">
+          <a class="footer footer__link" href="http://www.cable-insulation.com"
+            ><i class="fas fa-external-link-square-alt"></i></a
+          ></li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
